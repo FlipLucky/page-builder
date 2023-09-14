@@ -1,11 +1,21 @@
-# P A G E B U I L D E R
+# PageBuilder
 
 ## Table of Contents
-- [introduction](#intro)
+- [Intro](#intro)
+- [Languages](#languages)
+- [Tools](#tools)
 
 
-## I N T R O
+## Intro
 
 This project is a personal project to see if is is doable to create a pagebuilder with serverside rendering. 
 
-## T O O L S  U S E D
+## Languages
+- golang
+- html
+- css
+
+## Tools
+- Templ
+- Chi
+- HTMX
