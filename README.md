@@ -25,7 +25,8 @@ This project is a personal project to see if is is doable to create a pagebuilde
 
 ## Current state + near future
 - Added Chi for routing.
+- added docker with Postgres
 ___ 
-- Planning on adding Postgress with docker-compose
+##### planning
 - installing Templ
 - setting up the basics of Templ for rendering an admin panel
