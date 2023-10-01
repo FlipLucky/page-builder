@@ -1,6 +1,7 @@
 package routes
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
@@ -8,11 +9,11 @@ import (
 )
 
 func NewRouter() {
+	fmt.Println("Router initializing....")
 	r := chi.NewRouter()
 	r.Use(middleware.Logger)
 	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("Beter dan een lege pagina"))
-
+		w.Write([]byte("Beter dan een 3 lege pagina's!"))
 	})
 	http.ListenAndServe(":3000", r)
 }
